@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>test1 on M365HowTos</title>
+    <link>https://M365HowTos.com/categories/test1/</link>
+    <description>Recent content in test1 on M365HowTos</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 13 Mar 2023 18:22:20 +0000</lastBuildDate><atom:link href="https://M365HowTos.com/categories/test1/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>test</title>
+      <link>https://M365HowTos.com/posts/test/</link>
+      <pubDate>Mon, 13 Mar 2023 18:22:20 +0000</pubDate>
+      
+      <guid>https://M365HowTos.com/posts/test/</guid>
+      <description>Microsoft Graph documentation Thank you for your interest in Microsoft Graph documentation! For the best experience, we recommend you view this content on the Microsoft Graph Developer Portal.
+Give us your feedback Your feedback is important to us.
+To let us know about any questions or issues you find in the documentation, submit an issue in this repository. We also encourage you to fork, make the fix, and do a pull request of your proposed changes.</description>
+    </item>
+    
+  </channel>
+</rss>

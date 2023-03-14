@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts on M365HowTos</title>
-    <link>https://M365HowTos.com/posts/</link>
-    <description>Recent content in Posts on M365HowTos</description>
+    <title>SharePoint on M365HowTos</title>
+    <link>https://M365HowTos.com/tags/sharepoint/</link>
+    <description>Recent content in SharePoint on M365HowTos</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 13 Mar 2023 18:22:20 +0000</lastBuildDate><atom:link href="https://M365HowTos.com/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 13 Mar 2023 18:22:20 +0000</lastBuildDate><atom:link href="https://M365HowTos.com/tags/sharepoint/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>test</title>
       <link>https://M365HowTos.com/posts/test/</link>
@@ -25,15 +25,6 @@ To let us know about any questions or issues you find in the documentation, subm
       
       <guid>https://M365HowTos.com/posts/pyton101/</guid>
       <description>While recent work on text-conditional 3D object generation has shown promising results, the state-of-the-art methods typically require multiple GPU-hours to produce a single sample. This is in stark contrast to state-of-the-art generative image models, which produce samples in a number of seconds or minutes. In this paper, we explore an alternative method for 3D object generation which produces 3D models in only 1-2 minutes on a single GPU. Our method first generates a single synthetic view using a text-to-image diffusion model, and then produces a 3D point cloud using a second diffusion model which conditions on the generated image.</description>
-    </item>
-    
-    <item>
-      <title>Early users of ChatGP TandWhisperAPI</title>
-      <link>https://M365HowTos.com/posts/earlyusersofchatgptandwhisperapi/</link>
-      <pubDate>Mon, 13 Mar 2023 17:59:47 +0000</pubDate>
-      
-      <guid>https://M365HowTos.com/posts/earlyusersofchatgptandwhisperapi/</guid>
-      <description>Snap Inc., the creator of Snapchat, introduced My AI for Snapchat+ this week. The experimental feature is running on ChatGPT API. My AI offers Snapchatters a friendly, customizable chatbot at their fingertips that offers recommendations, and can even write a haiku for friends in seconds. Snapchat, where communication and messaging is a daily behavior, has 750 million monthly Snapchatters: ChatGPT and Whisper models are now available on our API, giving developers access to cutting-edge language (not just chat!</description>
     </item>
     
   </channel>

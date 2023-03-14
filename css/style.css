@@ -1,0 +1,66 @@
+.card {
+    word-wrap: break-word;
+    background-clip: border-box;
+    background-color: transparent;
+    border: 0 solid rgba(0,0,0,.125);
+    border-radius: 0;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    position: relative;
+    border-bottom: 1px solid rgba(0,0,0,.1);
+    padding: 10px
+}
+.card-header {
+  background-color: #fff;
+  border-bottom: 0 solid rgba(0,0,0,.125);
+  margin-bottom: 0;
+  padding: .75rem 1.5rem
+}
+.card-header a:not(.btn) {
+  color: inherit;
+  text-decoration: none
+}
+.card-title {
+  margin-bottom: .75rem
+}
+.card-body {
+    flex: 1 1 auto;
+    padding: 1.5rem
+}
+.navbar-brand {
+    font-family: "PT Serif",serif;
+    font-weight: 700;
+    
+}
+.navbar,.navbar * {
+    transition: all .25s ease-in-out
+}
+.navbar .search {
+    width: 114px
+}
+.navbar .search:focus {
+    content: "Type here";
+    width: 300px
+}
+a.read-more{
+  float: right;
+}
+.post-meta{
+  margin-right: .5rem!important
+}
+.post-tag {
+  -webkit-clip-path: polygon(0 50%, 1rem 0, 100% 0, 100% 100%, 1rem 100%) /*rtl:polygon(0 0, calc(100% - 1rem) 0, 100% 50%, calc(100% - 1rem) 100%, 0 100%)*/;
+  clip-path: polygon(0 50%, 1rem 0, 100% 0, 100% 100%, 1rem 100%) /*rtl:polygon(0 0, calc(100% - 1rem) 0, 100% 50%, calc(100% - 1rem) 100%, 0 100%)*/;
+  padding-left: 0.75rem;
+  opacity: 0.75
+}
+.post-tag:hover {
+  opacity: 1
+}
+.post-tag-sm {
+  -webkit-clip-path: polygon(0 50%, 0.5rem 0, 100% 0, 100% 100%, 0.5rem 100%) /*rtl:polygon(0 0, calc(100% - .5rem) 0, 100% 50%, calc(100% - .5rem) 100%, 0 100%)*/;
+  clip-path: polygon(0 50%, 0.5rem 0, 100% 0, 100% 100%, 0.5rem 100%) /*rtl:polygon(0 0, calc(100% - .5rem) 0, 100% 50%, calc(100% - .5rem) 100%, 0 100%)*/;
+  font-size: 0.75rem;
+  padding-left: 0.5rem
+}
