@@ -6,13 +6,22 @@
     <description>Recent content in Tags on M365HowTos</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 13 Mar 2023 18:22:20 +0000</lastBuildDate><atom:link href="https://M365HowTos.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 14 Mar 2023 03:55:03 +0000</lastBuildDate><atom:link href="https://M365HowTos.com/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>bar</title>
       <link>https://M365HowTos.com/tags/bar/</link>
-      <pubDate>Mon, 13 Mar 2023 18:22:20 +0000</pubDate>
+      <pubDate>Tue, 14 Mar 2023 03:55:03 +0000</pubDate>
       
       <guid>https://M365HowTos.com/tags/bar/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>foo</title>
+      <link>https://M365HowTos.com/tags/foo/</link>
+      <pubDate>Tue, 14 Mar 2023 03:55:03 +0000</pubDate>
+      
+      <guid>https://M365HowTos.com/tags/foo/</guid>
       <description></description>
     </item>
     
