@@ -6,40 +6,22 @@
     <description>Recent content in Tags on M365HowTos</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 13 Mar 2023 18:22:20 +0000</lastBuildDate><atom:link href="https://M365HowTos.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 19 Mar 2023 23:06:49 -0400</lastBuildDate><atom:link href="https://M365HowTos.com/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>bar</title>
-      <link>https://M365HowTos.com/tags/bar/</link>
-      <pubDate>Mon, 13 Mar 2023 18:22:20 +0000</pubDate>
+      <title>PowerShell</title>
+      <link>https://M365HowTos.com/tags/PowerShell/</link>
+      <pubDate>Sun, 19 Mar 2023 23:06:49 -0400</pubDate>
       
-      <guid>https://M365HowTos.com/tags/bar/</guid>
+      <guid>https://M365HowTos.com/tags/PowerShell/</guid>
       <description></description>
     </item>
     
     <item>
       <title>SharePoint</title>
-      <link>https://M365HowTos.com/tags/sharepoint/</link>
-      <pubDate>Mon, 13 Mar 2023 18:22:20 +0000</pubDate>
+      <link>https://M365HowTos.com/tags/SharePoint/</link>
+      <pubDate>Sun, 19 Mar 2023 23:06:49 -0400</pubDate>
       
-      <guid>https://M365HowTos.com/tags/sharepoint/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Teams</title>
-      <link>https://M365HowTos.com/tags/teams/</link>
-      <pubDate>Mon, 13 Mar 2023 17:59:47 +0000</pubDate>
-      
-      <guid>https://M365HowTos.com/tags/teams/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Test</title>
-      <link>https://M365HowTos.com/tags/test/</link>
-      <pubDate>Mon, 13 Mar 2023 17:59:47 +0000</pubDate>
-      
-      <guid>https://M365HowTos.com/tags/test/</guid>
+      <guid>https://M365HowTos.com/tags/SharePoint/</guid>
       <description></description>
     </item>
     

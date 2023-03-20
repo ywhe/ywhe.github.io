@@ -2,44 +2,32 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://M365HowTos.com/tags/bar/</loc>
-    <lastmod>2023-03-13T18:22:20+00:00</lastmod>
-  </url><url>
-    <loc>https://M365HowTos.com/categories/</loc>
-    <lastmod>2023-03-13T18:22:20+00:00</lastmod>
-  </url><url>
     <loc>https://M365HowTos.com/</loc>
-    <lastmod>2023-03-13T18:22:20+00:00</lastmod>
+    <lastmod>2023-03-19T23:06:49-04:00</lastmod>
+    <priority>0</priority>
   </url><url>
     <loc>https://M365HowTos.com/posts/</loc>
-    <lastmod>2023-03-13T18:22:20+00:00</lastmod>
+    <lastmod>2023-03-19T23:06:49-04:00</lastmod>
   </url><url>
-    <loc>https://M365HowTos.com/tags/sharepoint/</loc>
-    <lastmod>2023-03-13T18:22:20+00:00</lastmod>
+    <loc>https://M365HowTos.com/tags/PowerShell/</loc>
+    <lastmod>2023-03-19T23:06:49-04:00</lastmod>
+  </url><url>
+    <loc>https://M365HowTos.com/tags/SharePoint/</loc>
+    <lastmod>2023-03-19T23:06:49-04:00</lastmod>
+  </url><url>
+    <loc>https://M365HowTos.com/posts/SharePointOnlineSiteScriptsAndSiteDesign/</loc>
+    <lastmod>2023-03-19T23:06:49-04:00</lastmod>
   </url><url>
     <loc>https://M365HowTos.com/tags/</loc>
-    <lastmod>2023-03-13T18:22:20+00:00</lastmod>
-  </url><url>
-    <loc>https://M365HowTos.com/posts/test/</loc>
-    <lastmod>2023-03-13T18:22:20+00:00</lastmod>
-  </url><url>
-    <loc>https://M365HowTos.com/categories/test1/</loc>
-    <lastmod>2023-03-13T18:22:20+00:00</lastmod>
-  </url><url>
-    <loc>https://M365HowTos.com/posts/pyton101/</loc>
-    <lastmod>2023-03-13T18:01:17+00:00</lastmod>
-  </url><url>
-    <loc>https://M365HowTos.com/posts/earlyusersofchatgptandwhisperapi/</loc>
-    <lastmod>2023-03-13T17:59:47+00:00</lastmod>
-  </url><url>
-    <loc>https://M365HowTos.com/tags/teams/</loc>
-    <lastmod>2023-03-13T17:59:47+00:00</lastmod>
-  </url><url>
-    <loc>https://M365HowTos.com/tags/test/</loc>
-    <lastmod>2023-03-13T17:59:47+00:00</lastmod>
+    <lastmod>2023-03-19T23:06:49-04:00</lastmod>
   </url><url>
     <loc>https://M365HowTos.com/about/</loc>
     <priority>0</priority>
+  </url><url>
+    <loc>https://M365HowTos.com/contact/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>https://M365HowTos.com/categories/</loc>
   </url><url>
     <loc>https://M365HowTos.com/series/</loc>
   </url>

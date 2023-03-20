@@ -6,43 +6,14 @@
     <description>Recent content on M365HowTos</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 13 Mar 2023 18:22:20 +0000</lastBuildDate><atom:link href="https://M365HowTos.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 19 Mar 2023 23:06:49 -0400</lastBuildDate><atom:link href="https://M365HowTos.com/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>test</title>
-      <link>https://M365HowTos.com/posts/test/</link>
-      <pubDate>Mon, 13 Mar 2023 18:22:20 +0000</pubDate>
+      <title>SharePoint Online Site Script</title>
+      <link>https://M365HowTos.com/posts/SharePointOnlineSiteScriptsAndSiteDesign/</link>
+      <pubDate>Sun, 19 Mar 2023 23:06:49 -0400</pubDate>
       
-      <guid>https://M365HowTos.com/posts/test/</guid>
-      <description>Microsoft Graph documentation Thank you for your interest in Microsoft Graph documentation! For the best experience, we recommend you view this content on the Microsoft Graph Developer Portal.
-Give us your feedback Your feedback is important to us.
-To let us know about any questions or issues you find in the documentation, submit an issue in this repository. We also encourage you to fork, make the fix, and do a pull request of your proposed changes.</description>
-    </item>
-    
-    <item>
-      <title>pyton101</title>
-      <link>https://M365HowTos.com/posts/pyton101/</link>
-      <pubDate>Mon, 13 Mar 2023 18:01:17 +0000</pubDate>
-      
-      <guid>https://M365HowTos.com/posts/pyton101/</guid>
-      <description>While recent work on text-conditional 3D object generation has shown promising results, the state-of-the-art methods typically require multiple GPU-hours to produce a single sample. This is in stark contrast to state-of-the-art generative image models, which produce samples in a number of seconds or minutes. In this paper, we explore an alternative method for 3D object generation which produces 3D models in only 1-2 minutes on a single GPU. Our method first generates a single synthetic view using a text-to-image diffusion model, and then produces a 3D point cloud using a second diffusion model which conditions on the generated image.</description>
-    </item>
-    
-    <item>
-      <title>Early users of ChatGP TandWhisperAPI</title>
-      <link>https://M365HowTos.com/posts/earlyusersofchatgptandwhisperapi/</link>
-      <pubDate>Mon, 13 Mar 2023 17:59:47 +0000</pubDate>
-      
-      <guid>https://M365HowTos.com/posts/earlyusersofchatgptandwhisperapi/</guid>
-      <description>Snap Inc., the creator of Snapchat, introduced My AI for Snapchat+ this week. The experimental feature is running on ChatGPT API. My AI offers Snapchatters a friendly, customizable chatbot at their fingertips that offers recommendations, and can even write a haiku for friends in seconds. Snapchat, where communication and messaging is a daily behavior, has 750 million monthly Snapchatters: ChatGPT and Whisper models are now available on our API, giving developers access to cutting-edge language (not just chat!</description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>https://M365HowTos.com/about/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://M365HowTos.com/about/</guid>
-      <description></description>
+      <guid>https://M365HowTos.com/posts/SharePointOnlineSiteScriptsAndSiteDesign/</guid>
+      <description>SharePoint Site Script is a JSON file used to define custom configurations within a SharePoint Online site. It can include a series of actions, such as creating columns, creating lists, setting site themes, etc., which can be automatically applied to a SharePoint site to ensure it adheres to specific standards and requirements. Site Scripts are reusable scripts that can be shared and reused across multiple SharePoint sites.</description>
     </item>
     
   </channel>

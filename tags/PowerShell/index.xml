@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>SharePoint on M365HowTos</title>
-    <link>https://M365HowTos.com/tags/SharePoint/</link>
-    <description>Recent content in SharePoint on M365HowTos</description>
+    <title>PowerShell on M365HowTos</title>
+    <link>https://M365HowTos.com/tags/PowerShell/</link>
+    <description>Recent content in PowerShell on M365HowTos</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 19 Mar 2023 23:06:49 -0400</lastBuildDate><atom:link href="https://M365HowTos.com/tags/SharePoint/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 19 Mar 2023 23:06:49 -0400</lastBuildDate><atom:link href="https://M365HowTos.com/tags/PowerShell/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>SharePoint Online Site Script</title>
       <link>https://M365HowTos.com/posts/SharePointOnlineSiteScriptsAndSiteDesign/</link>
