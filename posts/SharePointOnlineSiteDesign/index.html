@@ -52,15 +52,10 @@
     <div class="container">
         <div class="row">
             <div class="col-md-9">
-                
-                
-                
                 <article class="card mb-4">
-                    <header class="card-header">
-                        <a href="https://M365HowTos.com/posts/SharePointOnlineSiteDesign/" title="SharePoint Online Site Design">
-                            <h3 class="card-title bd-title">SharePoint Online Site Design</h3>
-                        </a>
-                        <div class="card-meta">
+                    <div class="card-body">
+                        <div class=" card-title text-left">
+                            <h1 class="card-title">SharePoint Online Site Design</h1><div class="card-meta">
     <div class="text-secondary">
         <svg width="18" height="18" class="svg-inline--fa fa-calendar-alt fa-w-14 fa-fw" aria-hidden="true"
             focusable="false" data-prefix="fas" data-icon="calendar-alt" role="img" xmlns="http://www.w3.org/2000/svg"
@@ -86,57 +81,38 @@
     </div>
 
 </div>
-                    </header>
-                    <div class="card-body">
-                        <p>Site design refers to the process of customizing and branding the appearance and functionality of SharePoint Online sites to meet specific business needs. This involves creating a design template that can be applied to new or existing sites, which can include custom themes, layouts, and functionality.</p>
-                        <a class=" btn btn-outline-success read-more" href="/posts/SharePointOnlineSiteDesign/">Read More…</a>
+                        </div>
+                        <h6 id="what-is-sharepoint-online-site-design">What is SharePoint Online Site Design</h6>
+<p>Site design refers to the process of customizing and branding the appearance and functionality of SharePoint Online sites to meet specific business needs. This involves creating a design template that can be applied to new or existing sites, which can include custom themes, layouts, and functionality.</p>
+<p>Site design is typically performed by SharePoint administrators or developers using tools such as SharePoint Designer or Microsoft Power Platform. It can involve creating custom web parts, adding custom scripts, and implementing custom workflows to automate business processes.</p>
+<p>The ultimate goal of Site design is to create a visually appealing and user-friendly site that enables efficient collaboration and communication among team members. By customizing the site&rsquo;s look and feel, businesses can promote their brand and create a professional online presence that meets their specific requirements.</p>
+<p>From a developer&rsquo;s perspective, site design is a group of site scripts.</p>
+<h5 id="how-to-add-site-design-using-pnp-powershell">How to add site design using pnp powershell</h5>
+<ol>
+<li>
+<p>Create a site script as mentioned in <a href="https://m365howtos.com/posts/SharePointOnlineSiteScripts">SharePoint Online Site Script</a></p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-powershell" data-lang="powershell"><span style="display:flex;"><span>Connect-PnPOnline -Url https<span style="color:#960050;background-color:#1e0010">:</span>//yourtenant.sharepoint.com/sites/yoursite -Interactive
+</span></span><span style="display:flex;"><span>$content=Get-Content <span style="color:#e6db74">&#34;C:\Path\To\mysitescript.json&#34;</span> -Raw
+</span></span><span style="display:flex;"><span>Add-PnPSiteScript -Title <span style="color:#e6db74">&#34;My Site Script&#34;</span> -Description <span style="color:#e6db74">&#34;Custom site script&#34;</span> -Content $content -Version <span style="color:#ae81ff">1</span>
+</span></span><span style="display:flex;"><span>Get-PnPSiteScript -Identity &lt;SiteScriptID&gt;
+</span></span></code></pre></div></li>
+<li>
+<p>Add site design using Add-PnPSiteDesign cmdlet</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-powershell" data-lang="powershell"><span style="display:flex;"><span>Add-PnPSiteDesign -Title <span style="color:#e6db74">&#34;My Company Design&#34;</span> -SiteScriptIds <span style="color:#e6db74">&#34;e84dcb46-3ab9-4456-a136-66fc6ae3d3c5&#34;</span>,<span style="color:#e6db74">&#34;6def687f-0e08-4f1e-999c-791f3af9a600&#34;</span> -Description <span style="color:#e6db74">&#34;My description&#34;</span> -WebTemplate TeamSite -ThumbnailUrl https<span style="color:#960050;background-color:#1e0010">:</span>//contoso.sharepoint.com/sites/templates/siteassets/logo.png
+</span></span></code></pre></div></li>
+</ol>
+<p>To update/delete site design, you can use the following cmdlet</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-powershell" data-lang="powershell"><span style="display:flex;"><span>set-PnPSiteDesign -Identity &lt;TenantSiteDesignPipeBind&gt; [-Title &lt;String&gt;] [-SiteScriptIds &lt;GuidPipeBind[]&gt;]
+</span></span><span style="display:flex;"><span> [-Description &lt;String&gt;] [-IsDefault] [-PreviewImageAltText &lt;String&gt;] [-PreviewImageUrl &lt;String&gt;]
+</span></span><span style="display:flex;"><span> [-WebTemplate &lt;SiteWebTemplate&gt;] [-Version &lt;Int32&gt;] [-ThumbnailUrl &lt;String&gt;] [-DesignPackageId &lt;Guid&gt;] [-Connection &lt;PnPConnection&gt;]
+</span></span><span style="display:flex;"><span> [&lt;CommonParameters&gt;]
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span> Remove-PnPSiteDesign [-Identity] &lt;TenantSiteDesignPipeBind&gt; [-Force] [-Connection &lt;PnPConnection&gt;]
+</span></span></code></pre></div>
+
                     </div>
                 </article>
-                
-                <article class="card mb-4">
-                    <header class="card-header">
-                        <a href="https://M365HowTos.com/posts/SharePointOnlineSiteScripts/" title="SharePoint Online Site Script">
-                            <h3 class="card-title bd-title">SharePoint Online Site Script</h3>
-                        </a>
-                        <div class="card-meta">
-    <div class="text-secondary">
-        <svg width="18" height="18" class="svg-inline--fa fa-calendar-alt fa-w-14 fa-fw" aria-hidden="true"
-            focusable="false" data-prefix="fas" data-icon="calendar-alt" role="img" xmlns="http://www.w3.org/2000/svg"
-            viewBox="0 0 448 512" data-fa-i2svg="">
-            <path fill="currentColor"
-                d="M0 464c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48V192H0v272zm320-196c0-6.6 5.4-12 12-12h40c6.6 0 12 5.4 12 12v40c0 6.6-5.4 12-12 12h-40c-6.6 0-12-5.4-12-12v-40zm0 128c0-6.6 5.4-12 12-12h40c6.6 0 12 5.4 12 12v40c0 6.6-5.4 12-12 12h-40c-6.6 0-12-5.4-12-12v-40zM192 268c0-6.6 5.4-12 12-12h40c6.6 0 12 5.4 12 12v40c0 6.6-5.4 12-12 12h-40c-6.6 0-12-5.4-12-12v-40zm0 128c0-6.6 5.4-12 12-12h40c6.6 0 12 5.4 12 12v40c0 6.6-5.4 12-12 12h-40c-6.6 0-12-5.4-12-12v-40zM64 268c0-6.6 5.4-12 12-12h40c6.6 0 12 5.4 12 12v40c0 6.6-5.4 12-12 12H76c-6.6 0-12-5.4-12-12v-40zm0 128c0-6.6 5.4-12 12-12h40c6.6 0 12 5.4 12 12v40c0 6.6-5.4 12-12 12H76c-6.6 0-12-5.4-12-12v-40zM400 64h-48V16c0-8.8-7.2-16-16-16h-32c-8.8 0-16 7.2-16 16v48H160V16c0-8.8-7.2-16-16-16h-32c-8.8 0-16 7.2-16 16v48H48C21.5 64 0 85.5 0 112v48h448v-48c0-26.5-21.5-48-48-48z">
-            </path>
-        </svg>
-        <span class="post-meta">  Mar 19, 2023 </span>
-        <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor" class="bi bi-cup-hot"
-            viewBox="0 0 18 18">
-            <path fill-rule="evenodd"
-                d="M.5 6a.5.5 0 0 0-.488.608l1.652 7.434A2.5 2.5 0 0 0 4.104 16h5.792a2.5 2.5 0 0 0 2.44-1.958l.131-.59a3 3 0 0 0 1.3-5.854l.221-.99A.5.5 0 0 0 13.5 6H.5ZM13 12.5a2.01 2.01 0 0 1-.316-.025l.867-3.898A2.001 2.001 0 0 1 13 12.5ZM2.64 13.825 1.123 7h11.754l-1.517 6.825A1.5 1.5 0 0 1 9.896 15H4.104a1.5 1.5 0 0 1-1.464-1.175Z">
-            </path>
-            <path
-                d="m4.4.8-.003.004-.014.019a4.167 4.167 0 0 0-.204.31 2.327 2.327 0 0 0-.141.267c-.026.06-.034.092-.037.103v.004a.593.593 0 0 0 .091.248c.075.133.178.272.308.445l.01.012c.118.158.26.347.37.543.112.2.22.455.22.745 0 .188-.065.368-.119.494a3.31 3.31 0 0 1-.202.388 5.444 5.444 0 0 1-.253.382l-.018.025-.005.008-.002.002A.5.5 0 0 1 3.6 4.2l.003-.004.014-.019a4.149 4.149 0 0 0 .204-.31 2.06 2.06 0 0 0 .141-.267c.026-.06.034-.092.037-.103a.593.593 0 0 0-.09-.252A4.334 4.334 0 0 0 3.6 2.8l-.01-.012a5.099 5.099 0 0 1-.37-.543A1.53 1.53 0 0 1 3 1.5c0-.188.065-.368.119-.494.059-.138.134-.274.202-.388a5.446 5.446 0 0 1 .253-.382l.025-.035A.5.5 0 0 1 4.4.8Zm3 0-.003.004-.014.019a4.167 4.167 0 0 0-.204.31 2.327 2.327 0 0 0-.141.267c-.026.06-.034.092-.037.103v.004a.593.593 0 0 0 .091.248c.075.133.178.272.308.445l.01.012c.118.158.26.347.37.543.112.2.22.455.22.745 0 .188-.065.368-.119.494a3.31 3.31 0 0 1-.202.388 5.444 5.444 0 0 1-.253.382l-.018.025-.005.008-.002.002A.5.5 0 0 1 6.6 4.2l.003-.004.014-.019a4.149 4.149 0 0 0 .204-.31 2.06 2.06 0 0 0 .141-.267c.026-.06.034-.092.037-.103a.593.593 0 0 0-.09-.252A4.334 4.334 0 0 0 6.6 2.8l-.01-.012a5.099 5.099 0 0 1-.37-.543A1.53 1.53 0 0 1 6 1.5c0-.188.065-.368.119-.494.059-.138.134-.274.202-.388a5.446 5.446 0 0 1 .253-.382l.025-.035A.5.5 0 0 1 7.4.8Zm3 0-.003.004-.014.019a4.077 4.077 0 0 0-.204.31 2.337 2.337 0 0 0-.141.267c-.026.06-.034.092-.037.103v.004a.593.593 0 0 0 .091.248c.075.133.178.272.308.445l.01.012c.118.158.26.347.37.543.112.2.22.455.22.745 0 .188-.065.368-.119.494a3.198 3.198 0 0 1-.202.388 5.385 5.385 0 0 1-.252.382l-.019.025-.005.008-.002.002A.5.5 0 0 1 9.6 4.2l.003-.004.014-.019a4.149 4.149 0 0 0 .204-.31 2.06 2.06 0 0 0 .141-.267c.026-.06.034-.092.037-.103a.593.593 0 0 0-.09-.252A4.334 4.334 0 0 0 9.6 2.8l-.01-.012a5.099 5.099 0 0 1-.37-.543A1.53 1.53 0 0 1 9 1.5c0-.188.065-.368.119-.494.059-.138.134-.274.202-.388a5.446 5.446 0 0 1 .253-.382l.025-.035A.5.5 0 0 1 10.4.8Z">
-            </path>
-        </svg>
-        <span class="post-meta"> 2 min read</span><a href="/tags/PowerShell/"
-            class="btn btn-sm btn-success mb-1 me-2 py-0 pe-1 post-tag post-tag-sm post-tag">PowerShell</a><a href="/tags/SharePoint/"
-            class="btn btn-sm btn-success mb-1 me-2 py-0 pe-1 post-tag post-tag-sm post-tag">SharePoint</a>
-
-    </div>
-
-</div>
-                    </header>
-                    <div class="card-body">
-                        <p>SharePoint Site Script is a JSON file used to define custom configurations within a SharePoint Online site. It can include a series of actions, such as creating columns, creating lists, setting site themes, etc., which can be automatically applied to a SharePoint site to ensure it adheres to specific standards and requirements. Site Scripts are reusable scripts that can be shared and reused across multiple SharePoint sites.</p>
-                        <a class=" btn btn-outline-success read-more" href="/posts/SharePointOnlineSiteScripts/">Read More…</a>
-                    </div>
-                </article>
-                
-                
-
-
-
             </div>
-
             <div class="col-md-3 ms-auto">
     
     <aside class="sidebar sidebar-sticky">
@@ -158,7 +134,9 @@
     
 </div>
         </div>
+    </div>
 </main>
+
 
     </div><footer class="site-footer ">
     <div class="container">
