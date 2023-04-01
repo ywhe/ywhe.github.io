@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Teams on M365HowTos</title>
+    <link>https://M365HowTos.com/tags/Teams/</link>
+    <description>Recent content in Teams on M365HowTos</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 01 Apr 2023 01:32:12 +0000</lastBuildDate><atom:link href="https://M365HowTos.com/tags/Teams/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Bulk update Display Names for Teams</title>
+      <link>https://M365HowTos.com/posts/Bulk-update-Display-Names-for-Teams/</link>
+      <pubDate>Sat, 01 Apr 2023 01:32:12 +0000</pubDate>
+      
+      <guid>https://M365HowTos.com/posts/Bulk-update-Display-Names-for-Teams/</guid>
+      <description>Set-Team cmdlet allows you to update properties of a team, including its displayname, description, and team-specific settings. Here is an example using powershell to bulk update display names for Microsoft Teams.</description>
+    </item>
+    
+  </channel>
+</rss>

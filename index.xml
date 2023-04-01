@@ -6,7 +6,25 @@
     <description>Recent content on M365HowTos</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 01 Apr 2023 00:26:27 +0000</lastBuildDate><atom:link href="https://M365HowTos.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 01 Apr 2023 01:32:12 +0000</lastBuildDate><atom:link href="https://M365HowTos.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Bulk update Display Names for Teams</title>
+      <link>https://M365HowTos.com/posts/Bulk-update-Display-Names-for-Teams/</link>
+      <pubDate>Sat, 01 Apr 2023 01:32:12 +0000</pubDate>
+      
+      <guid>https://M365HowTos.com/posts/Bulk-update-Display-Names-for-Teams/</guid>
+      <description>Set-Team cmdlet allows you to update properties of a team, including its displayname, description, and team-specific settings. Here is an example using powershell to bulk update display names for Microsoft Teams.</description>
+    </item>
+    
+    <item>
+      <title>SharePoint Online Language IDs</title>
+      <link>https://M365HowTos.com/posts/SharePoint-Online-Language-IDs/</link>
+      <pubDate>Sat, 01 Apr 2023 01:05:17 +0000</pubDate>
+      
+      <guid>https://M365HowTos.com/posts/SharePoint-Online-Language-IDs/</guid>
+      <description>SharePoint Online Language ID is a unique identifier that represents a language used in SharePoint Online. Each language has its own ID that is used to indicate the language of the content stored in SharePoint Online. Language IDs are used to ensure that content is displayed correctly in the correct language in SharePoint Online sites and pages.</description>
+    </item>
+    
     <item>
       <title>SharePoint Site Template ID</title>
       <link>https://M365HowTos.com/posts/SharePoint-Site-Template-ID/</link>
