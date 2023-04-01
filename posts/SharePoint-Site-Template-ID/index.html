@@ -1,0 +1,695 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+
+    <link href="https://M365HowTos.com/css/style.css" rel="stylesheet">
+</head><body><header>
+  <nav class="navbar navbar-expand-md absolute-top bg-success">
+    <div class="container">
+      <button class="navbar-toggler order-2 order-md-1" type="button" data-bs-toggle="collapse"
+        data-bs-target=".navbar-collapse" aria-controls="navbar-left navbar-right" aria-expanded="false"
+        aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse order-3 order-md-2" id="navbar-left">
+        <ul class="navbar-nav me-auto">
+          <li class="nav-item dropdown active">
+            <a class="nav-link text-white" href="/" aria-haspopup="true" aria-expanded="false">Home</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle text-white" href="/posts/" id="dropdown02" data-bs-toggle="dropdown"
+              aria-haspopup="true" aria-expanded="false">Posts</a>
+            <div class="dropdown-menu bg-success" aria-labelledby="dropdown02">
+              
+              
+              <a class="dropdown-item text-white" href="https://M365HowTos.com/tags/PowerShell/">PowerShell</a>
+              
+              
+              
+              <a class="dropdown-item text-white" href="https://M365HowTos.com/tags/SharePoint/">SharePoint</a>
+              
+              
+
+
+            </div>
+          </li>
+        </ul>
+      </div>
+
+      <a class="navbar-brand mx-auto order-1 order-md-3 text-white" href="/">M365HowTos</a>
+
+      <div class="collapse navbar-collapse order-4 order-md-4" id="navbar-right">
+        
+      </div>
+    </div>
+  </nav>
+</header><div id="">
+<main class="main pt-4">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-9">
+                <article class="card mb-4">
+                    <div class="card-body">
+                        <div class=" card-title text-left">
+                            <h1 class="card-title">SharePoint Site Template ID</h1><div class="card-meta">
+    <div class="text-secondary">
+        <svg width="18" height="18" class="svg-inline--fa fa-calendar-alt fa-w-14 fa-fw" aria-hidden="true"
+            focusable="false" data-prefix="fas" data-icon="calendar-alt" role="img" xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 448 512" data-fa-i2svg="">
+            <path fill="currentColor"
+                d="M0 464c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48V192H0v272zm320-196c0-6.6 5.4-12 12-12h40c6.6 0 12 5.4 12 12v40c0 6.6-5.4 12-12 12h-40c-6.6 0-12-5.4-12-12v-40zm0 128c0-6.6 5.4-12 12-12h40c6.6 0 12 5.4 12 12v40c0 6.6-5.4 12-12 12h-40c-6.6 0-12-5.4-12-12v-40zM192 268c0-6.6 5.4-12 12-12h40c6.6 0 12 5.4 12 12v40c0 6.6-5.4 12-12 12h-40c-6.6 0-12-5.4-12-12v-40zm0 128c0-6.6 5.4-12 12-12h40c6.6 0 12 5.4 12 12v40c0 6.6-5.4 12-12 12h-40c-6.6 0-12-5.4-12-12v-40zM64 268c0-6.6 5.4-12 12-12h40c6.6 0 12 5.4 12 12v40c0 6.6-5.4 12-12 12H76c-6.6 0-12-5.4-12-12v-40zm0 128c0-6.6 5.4-12 12-12h40c6.6 0 12 5.4 12 12v40c0 6.6-5.4 12-12 12H76c-6.6 0-12-5.4-12-12v-40zM400 64h-48V16c0-8.8-7.2-16-16-16h-32c-8.8 0-16 7.2-16 16v48H160V16c0-8.8-7.2-16-16-16h-32c-8.8 0-16 7.2-16 16v48H48C21.5 64 0 85.5 0 112v48h448v-48c0-26.5-21.5-48-48-48z">
+            </path>
+        </svg>
+        <span class="post-meta">  Apr 1, 2023 </span>
+        <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor" class="bi bi-cup-hot"
+            viewBox="0 0 18 18">
+            <path fill-rule="evenodd"
+                d="M.5 6a.5.5 0 0 0-.488.608l1.652 7.434A2.5 2.5 0 0 0 4.104 16h5.792a2.5 2.5 0 0 0 2.44-1.958l.131-.59a3 3 0 0 0 1.3-5.854l.221-.99A.5.5 0 0 0 13.5 6H.5ZM13 12.5a2.01 2.01 0 0 1-.316-.025l.867-3.898A2.001 2.001 0 0 1 13 12.5ZM2.64 13.825 1.123 7h11.754l-1.517 6.825A1.5 1.5 0 0 1 9.896 15H4.104a1.5 1.5 0 0 1-1.464-1.175Z">
+            </path>
+            <path
+                d="m4.4.8-.003.004-.014.019a4.167 4.167 0 0 0-.204.31 2.327 2.327 0 0 0-.141.267c-.026.06-.034.092-.037.103v.004a.593.593 0 0 0 .091.248c.075.133.178.272.308.445l.01.012c.118.158.26.347.37.543.112.2.22.455.22.745 0 .188-.065.368-.119.494a3.31 3.31 0 0 1-.202.388 5.444 5.444 0 0 1-.253.382l-.018.025-.005.008-.002.002A.5.5 0 0 1 3.6 4.2l.003-.004.014-.019a4.149 4.149 0 0 0 .204-.31 2.06 2.06 0 0 0 .141-.267c.026-.06.034-.092.037-.103a.593.593 0 0 0-.09-.252A4.334 4.334 0 0 0 3.6 2.8l-.01-.012a5.099 5.099 0 0 1-.37-.543A1.53 1.53 0 0 1 3 1.5c0-.188.065-.368.119-.494.059-.138.134-.274.202-.388a5.446 5.446 0 0 1 .253-.382l.025-.035A.5.5 0 0 1 4.4.8Zm3 0-.003.004-.014.019a4.167 4.167 0 0 0-.204.31 2.327 2.327 0 0 0-.141.267c-.026.06-.034.092-.037.103v.004a.593.593 0 0 0 .091.248c.075.133.178.272.308.445l.01.012c.118.158.26.347.37.543.112.2.22.455.22.745 0 .188-.065.368-.119.494a3.31 3.31 0 0 1-.202.388 5.444 5.444 0 0 1-.253.382l-.018.025-.005.008-.002.002A.5.5 0 0 1 6.6 4.2l.003-.004.014-.019a4.149 4.149 0 0 0 .204-.31 2.06 2.06 0 0 0 .141-.267c.026-.06.034-.092.037-.103a.593.593 0 0 0-.09-.252A4.334 4.334 0 0 0 6.6 2.8l-.01-.012a5.099 5.099 0 0 1-.37-.543A1.53 1.53 0 0 1 6 1.5c0-.188.065-.368.119-.494.059-.138.134-.274.202-.388a5.446 5.446 0 0 1 .253-.382l.025-.035A.5.5 0 0 1 7.4.8Zm3 0-.003.004-.014.019a4.077 4.077 0 0 0-.204.31 2.337 2.337 0 0 0-.141.267c-.026.06-.034.092-.037.103v.004a.593.593 0 0 0 .091.248c.075.133.178.272.308.445l.01.012c.118.158.26.347.37.543.112.2.22.455.22.745 0 .188-.065.368-.119.494a3.198 3.198 0 0 1-.202.388 5.385 5.385 0 0 1-.252.382l-.019.025-.005.008-.002.002A.5.5 0 0 1 9.6 4.2l.003-.004.014-.019a4.149 4.149 0 0 0 .204-.31 2.06 2.06 0 0 0 .141-.267c.026-.06.034-.092.037-.103a.593.593 0 0 0-.09-.252A4.334 4.334 0 0 0 9.6 2.8l-.01-.012a5.099 5.099 0 0 1-.37-.543A1.53 1.53 0 0 1 9 1.5c0-.188.065-.368.119-.494.059-.138.134-.274.202-.388a5.446 5.446 0 0 1 .253-.382l.025-.035A.5.5 0 0 1 10.4.8Z">
+            </path>
+        </svg>
+        <span class="post-meta"> 13 min read</span><a href="/tags/SharePoint/"
+            class="btn btn-sm btn-success mb-1 me-2 py-0 pe-1 post-tag post-tag-sm post-tag">SharePoint</a>
+
+    </div>
+
+</div>
+                        </div>
+                        <p>A SharePoint site template ID is the unique identifier for each SharePoint site template. It is typically a string that can be accessed through the SharePoint object model or by using the site template gallery in the SharePoint admin center.</p>
+<p>Using a SharePoint site template ID, you can:</p>
+<ol>
+<li>Create new SharePoint sites based on pre-defined templates. You can choose an existing template and use its ID to create a new site without having to create it from scratch.</li>
+<li>Create site collections from templates. Site collections are containers that contain multiple subsites. By creating a site collection from a template, you can quickly create an entire site hierarchy that includes multiple subsites.</li>
+<li>Automate the creation of sites or site collections in code. Using the SharePoint object model, you can write code to create new SharePoint sites or site collections without having to manually perform these processes. To create a site or site collection, you need to specify the template ID to use.</li>
+</ol>
+<table>
+<thead>
+<tr>
+<th>Id</th>
+<th>Name</th>
+<th>Title</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>0</td>
+<td>GLOBAL#0</td>
+<td>Global template</td>
+<td>This template is used for initializing a new site.</td>
+</tr>
+<tr>
+<td>1</td>
+<td>STS#3</td>
+<td>Team site (no Microsoft 365 group)</td>
+<td>A site with no connection to a Microsoft 365 Group.</td>
+</tr>
+<tr>
+<td>1</td>
+<td>STS#0</td>
+<td>Team site (classic experience)</td>
+<td>A site with a classic experience on the home page and no connection to a Microsoft 365 Group.</td>
+</tr>
+<tr>
+<td>1</td>
+<td>STS#1</td>
+<td>Blank Site</td>
+<td>A blank site for you to customize based on your requirements.</td>
+</tr>
+<tr>
+<td>1</td>
+<td>STS#2</td>
+<td>Document Workspace</td>
+<td>A site for colleagues to work together on a document. It provides a document library for storing the primary document and supporting files</td>
+</tr>
+<tr>
+<td>2</td>
+<td>MPS#0</td>
+<td>Basic Meeting Workspace</td>
+<td>A site to plan</td>
+</tr>
+<tr>
+<td>2</td>
+<td>MPS#1</td>
+<td>Blank Meeting Workspace</td>
+<td>A blank meeting site for you to customize based on your requirements.</td>
+</tr>
+<tr>
+<td>2</td>
+<td>MPS#2</td>
+<td>Decision Meeting Workspace</td>
+<td>A site for meetings that track status or make decisions. It provides lists for creating tasks</td>
+</tr>
+<tr>
+<td>2</td>
+<td>MPS#3</td>
+<td>Social Meeting Workspace</td>
+<td>A site to plan social occasions. It provides lists for tracking attendees</td>
+</tr>
+<tr>
+<td>2</td>
+<td>MPS#4</td>
+<td>Multipage Meeting Workspace</td>
+<td>A site to plan</td>
+</tr>
+<tr>
+<td>3</td>
+<td>CENTRALADMIN#0</td>
+<td>Central Admin Site</td>
+<td>A site for central administration. It provides Web pages and links for application and operations management.</td>
+</tr>
+<tr>
+<td>4</td>
+<td>WIKI#0</td>
+<td>Wiki Site</td>
+<td>A site for a community to brainstorm and share ideas. It provides Web pages that can be quickly edited to record information and then linked together through keywords</td>
+</tr>
+<tr>
+<td>9</td>
+<td>BLOG#0</td>
+<td>Blog</td>
+<td>A site for a person or team to post ideas</td>
+</tr>
+<tr>
+<td>15</td>
+<td>SGS#0</td>
+<td>Group Work Site</td>
+<td>This template provides a groupware solution that enables teams to create</td>
+</tr>
+<tr>
+<td>16</td>
+<td>TENANTADMIN#0</td>
+<td>Tenant Admin Site</td>
+<td>A site for tenant administration. It provides Web pages and links for self-serve administration.</td>
+</tr>
+<tr>
+<td>17</td>
+<td>APP#0</td>
+<td>App Template</td>
+<td>A base template for app development.  It provides the minimal set of features needed for an app.</td>
+</tr>
+<tr>
+<td>18</td>
+<td>APPCATALOG#0</td>
+<td>App Catalog Site</td>
+<td>A site for sharing apps for SharePoint and Office</td>
+</tr>
+<tr>
+<td>2764</td>
+<td>ACCSRV#0</td>
+<td>Access Services Site</td>
+<td>Microsoft Access Server</td>
+</tr>
+<tr>
+<td>2757</td>
+<td>ACCSVC#0</td>
+<td>Access Services Site Internal</td>
+<td>Microsoft Access Server Internal</td>
+</tr>
+<tr>
+<td>2757</td>
+<td>ACCSVC#1</td>
+<td>Access Services Site</td>
+<td>Microsoft Access Server</td>
+</tr>
+<tr>
+<td>7</td>
+<td>BDR#0</td>
+<td>Document Center</td>
+<td>A site to centrally manage documents in your enterprise.</td>
+</tr>
+<tr>
+<td>6001</td>
+<td>CONTENTCTR#0</td>
+<td>Content Center</td>
+<td>Content center is used to detect features from documents.</td>
+</tr>
+<tr>
+<td>3400</td>
+<td>TBH#0</td>
+<td>In-Place Hold Policy Center</td>
+<td>A site to manage policies to preserve content for a fixed period of time.</td>
+</tr>
+<tr>
+<td>95</td>
+<td>DEV#0</td>
+<td>Developer Site</td>
+<td>A site for developers to build</td>
+</tr>
+<tr>
+<td>3300</td>
+<td>EDISC#0</td>
+<td>eDiscovery Center</td>
+<td>A site to manage the preservation</td>
+</tr>
+<tr>
+<td>3300</td>
+<td>EDISC#1</td>
+<td>eDiscovery Case</td>
+<td>This template creates an eDiscovery case. Users create locations where they can preserve or export data.</td>
+</tr>
+<tr>
+<td>1611</td>
+<td>EXPRESS#0</td>
+<td>Express Team Site</td>
+<td>A site for teams to quickly create</td>
+</tr>
+<tr>
+<td>10043</td>
+<td>FunSite#0</td>
+<td>SharePoint Online Tenant Fundamental Site</td>
+<td>This template creates a fundamental site for a tenant.</td>
+</tr>
+<tr>
+<td>14483</td>
+<td>OFFILE#0</td>
+<td>(obsolete) Records Center</td>
+<td>(obsolete) This template creates a site designed for records management. Records managers can configure the routing table to direct incoming files to specific locations. The site also lets you manage whether records can be deleted or modified after they are added to the repository.</td>
+</tr>
+<tr>
+<td>14483</td>
+<td>OFFILE#1</td>
+<td>Records Center</td>
+<td>This template creates a site designed for records management. Records managers can configure the routing table to direct incoming files to specific locations. The site also lets you manage whether records can be deleted or modified after they are added to the repository.</td>
+</tr>
+<tr>
+<td>2009</td>
+<td>EHS#0</td>
+<td>Express Hosted Site</td>
+<td>A site for people to quickly create a collaboration space with public facing web pages and a members only area.</td>
+</tr>
+<tr>
+<td>2009</td>
+<td>EHS#2</td>
+<td>Public Publishing Portal</td>
+<td>A site for people to quickly create a collaboration space with public facing web pages and a members only area.</td>
+</tr>
+<tr>
+<td>2009</td>
+<td>EHS#1</td>
+<td>Team Site - SharePoint Online configuration</td>
+<td>A Team Site configured to allow organization members to edit</td>
+</tr>
+<tr>
+<td>40</td>
+<td>OSRV#0</td>
+<td>Shared Services Administration Site</td>
+<td>This template creates a site for administering shared services</td>
+</tr>
+<tr>
+<td>3100</td>
+<td>PPSMASite#0</td>
+<td>PerformancePoint</td>
+<td>A site for presenting PerformancePoint dashboards and scorecards. The site also includes links to PerformancePoint Dashboard Designer and storage for dashboard content such as analytic charts</td>
+</tr>
+<tr>
+<td>3200</td>
+<td>BICenterSite#0</td>
+<td>Business Intelligence Center</td>
+<td>A site for presenting Business Intelligence content in SharePoint.</td>
+</tr>
+<tr>
+<td>6221</td>
+<td>PWA#0</td>
+<td>Project Web App Site</td>
+<td>Microsoft Project Web App</td>
+</tr>
+<tr>
+<td>6215</td>
+<td>PWS#0</td>
+<td>Microsoft Project Site</td>
+<td>A site that supports team collaboration on projects. This site includes documents</td>
+</tr>
+<tr>
+<td>6000</td>
+<td>REVIEWCTR#0</td>
+<td>Review Center</td>
+<td>Review center is used to manage the review process related items.</td>
+</tr>
+<tr>
+<td>301</td>
+<td>RedirectSite#0</td>
+<td>Redirect Site</td>
+<td>This template creates a blank site that is used for redirect.</td>
+</tr>
+<tr>
+<td>3500</td>
+<td>POLICYCTR#0</td>
+<td>Compliance Policy Center</td>
+<td>Use the Document Deletion Policy Center to manage policies that can delete documents after a specified period of time. These policies can then be assigned to specific site collections or to site collection templates.</td>
+</tr>
+<tr>
+<td>20</td>
+<td>SPS#0</td>
+<td>SharePoint Portal Server Site</td>
+<td>This template is obsolete.</td>
+</tr>
+<tr>
+<td>21</td>
+<td>SPSPERS#0</td>
+<td>SharePoint Portal Server Personal Space</td>
+<td>This web template defines a Personal Space for an individual participating on a SharePoint Portal.</td>
+</tr>
+<tr>
+<td>21</td>
+<td>SPSPERS#2</td>
+<td>Storage And Social SharePoint Portal Server Personal Space</td>
+<td>This web template defines a minimal Personal Space with both Social and Storage features for an individual participating on a SharePoint Portal.</td>
+</tr>
+<tr>
+<td>21</td>
+<td>SPSPERS#3</td>
+<td>Storage Only SharePoint Portal Server Personal Space</td>
+<td>This web template defines a minimal Personal Space with Storage features for an individual participating on a SharePoint Portal.</td>
+</tr>
+<tr>
+<td>21</td>
+<td>SPSPERS#4</td>
+<td>Social Only SharePoint Portal Server Personal Space</td>
+<td>This web template defines a minimal Personal Space with Social features for an individual participating on a SharePoint Portal.</td>
+</tr>
+<tr>
+<td>21</td>
+<td>SPSPERS#5</td>
+<td>Empty SharePoint Portal Server Personal Space</td>
+<td>This web template defines a empty Personal Space.</td>
+</tr>
+<tr>
+<td>21</td>
+<td>SPSPERS#6</td>
+<td>Storage And Social SharePoint Portal Server Personal Space</td>
+<td>This web template defines a minimal Personal Space with Storage and on-demand Social features for an individual participating on a SharePoint Portal.</td>
+</tr>
+<tr>
+<td>21</td>
+<td>SPSPERS#7</td>
+<td>Storage And Social SharePoint Portal Server Personal Space</td>
+<td>This web template defines a minimal Personal Space with Storage</td>
+</tr>
+<tr>
+<td>21</td>
+<td>SPSPERS#8</td>
+<td>Storage And Social SharePoint Portal Server Personal Space</td>
+<td>This web template defines a minimal Personal Space with Storage</td>
+</tr>
+<tr>
+<td>21</td>
+<td>SPSPERS#9</td>
+<td>Storage And Social SharePoint Portal Server Personal Space</td>
+<td>This web template defines a minimal Personal Space with Storage</td>
+</tr>
+<tr>
+<td>21</td>
+<td>SPSPERS#10</td>
+<td>Storage And Social SharePoint Portal Server Personal Space</td>
+<td>This web template defines a minimal Personal Space with Storage</td>
+</tr>
+<tr>
+<td>21</td>
+<td>SPSPERS#11</td>
+<td>Consumer OneDrive</td>
+<td>This web template defines a minimal set of features for Consumer OneDrive.</td>
+</tr>
+<tr>
+<td>21</td>
+<td>SPSPERS#12</td>
+<td>JIT OneDrive Business</td>
+<td>This web template defines a minimal set of features for JIT OneDrive Business.</td>
+</tr>
+<tr>
+<td>22</td>
+<td>SPSMSITE#0</td>
+<td>Personalization Site</td>
+<td>A site for delivering personalized views</td>
+</tr>
+<tr>
+<td>30</td>
+<td>SPSTOC#0</td>
+<td>Contents area Template</td>
+<td>This template is obsolete.</td>
+</tr>
+<tr>
+<td>31</td>
+<td>SPSTOPIC#0</td>
+<td>Topic area template</td>
+<td>This template is obsolete.</td>
+</tr>
+<tr>
+<td>32</td>
+<td>SPSNEWS#0</td>
+<td>News Site</td>
+<td>This template is obsolete.</td>
+</tr>
+<tr>
+<td>39</td>
+<td>CMSPUBLISHING#0</td>
+<td>Publishing Site</td>
+<td>A blank site for expanding your Web site and quickly publishing Web pages. Contributors can work on draft versions of pages and publish them to make them visible to readers. The site includes  document and image libraries for storing Web publishing assets.</td>
+</tr>
+<tr>
+<td>53</td>
+<td>BLANKINTERNET#0</td>
+<td>Publishing Site</td>
+<td>This template creates a site for publishing Web pages on a schedule</td>
+</tr>
+<tr>
+<td>53</td>
+<td>BLANKINTERNET#1</td>
+<td>Press Releases Site</td>
+<td>This template creates the Press Releases subsite for an Internet-facing corporate presence website.</td>
+</tr>
+<tr>
+<td>53</td>
+<td>BLANKINTERNET#2</td>
+<td>Publishing Site with Workflow</td>
+<td>A site for publishing Web pages on a schedule by using approval workflows. It includes document and image libraries for storing Web publishing assets. By default</td>
+</tr>
+<tr>
+<td>33</td>
+<td>SPSNHOME#0</td>
+<td>News Site</td>
+<td>A site for publishing news articles and links to news articles. It includes a sample news page and an archive for storing older news items.</td>
+</tr>
+<tr>
+<td>34</td>
+<td>SPSSITES#0</td>
+<td>Site Directory</td>
+<td>A site for listing and categorizing important sites in your organization. It includes different views for categorized sites</td>
+</tr>
+<tr>
+<td>36</td>
+<td>SPSCOMMU#0</td>
+<td>Community area template</td>
+<td>This template is obsolete.</td>
+</tr>
+<tr>
+<td>38</td>
+<td>SPSREPORTCENTER#0</td>
+<td>Report Center</td>
+<td>A site for creating</td>
+</tr>
+<tr>
+<td>47</td>
+<td>SPSPORTAL#0</td>
+<td>Collaboration Portal</td>
+<td>A starter site hierarchy for an intranet divisional portal. It includes a home page</td>
+</tr>
+<tr>
+<td>50</td>
+<td>SRCHCEN#0</td>
+<td>Enterprise Search Center</td>
+<td>A site focused on delivering an enterprise-wide search experience. Includes a welcome page with a search box that connects users to four search results page experiences: one for general searches</td>
+</tr>
+<tr>
+<td>51</td>
+<td>PROFILES#0</td>
+<td>Profiles</td>
+<td>This template creates a profile site that includes page layout with zones</td>
+</tr>
+<tr>
+<td>52</td>
+<td>BLANKINTERNETCONTAINER#0</td>
+<td>Publishing Portal</td>
+<td>A starter site hierarchy for an Internet-facing site or a large intranet portal. This site can be customized easily with distinctive branding. It includes a home page</td>
+</tr>
+<tr>
+<td>54</td>
+<td>SPSMSITEHOST#0</td>
+<td>My Site Host</td>
+<td>A site used for hosting personal sites (My Sites) and the public People Profile page. This template needs to be provisioned only once per User Profile Service Application</td>
+</tr>
+<tr>
+<td>56</td>
+<td>ENTERWIKI#0</td>
+<td>Enterprise Wiki</td>
+<td>A site for publishing knowledge that you capture and want to share across the enterprise. It provides an easy content editing experience in a single location for co-authoring content</td>
+</tr>
+<tr>
+<td>6115</td>
+<td>PROJECTSITE#0</td>
+<td>Project Site</td>
+<td>A site for managing and collaborating on a project. This site template brings all status</td>
+</tr>
+<tr>
+<td>59</td>
+<td>PRODUCTCATALOG#0</td>
+<td>Product Catalog</td>
+<td>A site for managing product catalog data which can be published to  an internet-facing site through search. The product catalog can be configured to support product variants and multilingual product properties.  The site includes admin pages for managing faceted navigation for products.</td>
+</tr>
+<tr>
+<td>62</td>
+<td>COMMUNITY#0</td>
+<td>Community Site</td>
+<td>A place where community members discuss topics of common interest. Members can browse and discover relevant content by exploring categories</td>
+</tr>
+<tr>
+<td>63</td>
+<td>COMMUNITYPORTAL#0</td>
+<td>Community Portal</td>
+<td>A site for discovering communities.</td>
+</tr>
+<tr>
+<td>64</td>
+<td>GROUP#0</td>
+<td>Team site</td>
+<td>Share documents</td>
+</tr>
+<tr>
+<td>65</td>
+<td>POINTPUBLISHINGHUB#0</td>
+<td>PointPublishing Hub</td>
+<td>A site template used to create a pointpublishing hub site.</td>
+</tr>
+<tr>
+<td>66</td>
+<td>POINTPUBLISHINGPERSONAL#0</td>
+<td>Personal blog</td>
+<td>A site template used to create a pointpublishing personal site.</td>
+</tr>
+<tr>
+<td>67</td>
+<td>POINTPUBLISHINGTOPIC#0</td>
+<td>PointPublishing Topic</td>
+<td>A site template used to create a pointpublishing topic site.</td>
+</tr>
+<tr>
+<td>68</td>
+<td>SITEPAGEPUBLISHING#0</td>
+<td>Communication site</td>
+<td>Publish dynamic</td>
+</tr>
+<tr>
+<td>69</td>
+<td>TEAMCHANNEL#0</td>
+<td>Team channel</td>
+<td>Microsoft Teams Channel Site.</td>
+</tr>
+<tr>
+<td>69</td>
+<td>TEAMCHANNEL#1</td>
+<td>Team channel</td>
+<td>Microsoft Teams Channel Site with feature optimization.</td>
+</tr>
+<tr>
+<td>70</td>
+<td>CSPCONTAINER#0</td>
+<td>CSP Container</td>
+<td>A template providing the bare minimun required to support Content Storage Platform functionality.</td>
+</tr>
+<tr>
+<td>90</td>
+<td>SRCHCENTERLITE#0</td>
+<td>Basic Search Center</td>
+<td>A site focused on delivering a basic search experience. Includes a welcome page with a search box that connects users to a search results page</td>
+</tr>
+<tr>
+<td>90</td>
+<td>SRCHCENTERLITE#1</td>
+<td>Basic Search Center</td>
+<td>The Search Center template creates pages dedicated to search. The main welcome page features a simple search box in the center of the page. The template includes a search results and an advanced search page. This Search Center will not appear in navigation.</td>
+</tr>
+<tr>
+<td>10100</td>
+<td>TenantAdminSpo#0</td>
+<td>SharePoint Online TenantAdmin</td>
+<td>This template creates a site for the administrator to manage the SharePoint tenant.</td>
+</tr>
+<tr>
+<td>30003</td>
+<td>TestSite#0</td>
+<td>Test Site</td>
+<td>This template creates a test site that is used for move test.</td>
+</tr>
+<tr>
+<td>61</td>
+<td>visprus#0</td>
+<td>Visio Process Repository</td>
+<td>A site for viewing</td>
+</tr>
+<tr>
+<td>1015</td>
+<td>SAPWorkflowSite#0</td>
+<td>SAP Workflow Site</td>
+<td>An SAP Workflow site that aggregates all user business tasks. You can add other Web Parts related to that workflow.</td>
+</tr>
+</tbody>
+</table>
+
+
+                    </div>
+                </article>
+            </div>
+            <div class="col-md-3 ms-auto">
+    
+    <aside class="sidebar sidebar-sticky">
+        <div class="card mb-4">
+    <div class="card-body">
+        <h4 class="card-title">Tags</h4>
+        
+        
+        <a class="btn btn-outline-success btn-sm mb-1" href="https://M365HowTos.com/tags/PowerShell/">PowerShell</a>
+        
+        
+        
+        <a class="btn btn-outline-success btn-sm mb-1" href="https://M365HowTos.com/tags/SharePoint/">SharePoint</a>
+        
+        
+    </div>
+</div>
+    </aside>
+    
+</div>
+        </div>
+    </div>
+</main>
+
+
+    </div><footer class="site-footer ">
+    <div class="container">
+        <div class="d-lg-flex justify-content-between align-items-center py-3 text-center ">
+            
+            <div class="text-muted text-primary-hover"> Copyrights ©2023 M365HowTos </div>
+            
+            
+        </div>
+    </div>
+</footer><script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+    crossorigin="anonymous"></script>
+
+
+
+
+
+</body>
+
+</html>

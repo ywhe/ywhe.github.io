@@ -9,19 +9,19 @@
     <lastBuildDate>Mon, 20 Mar 2023 23:10:51 -0400</lastBuildDate><atom:link href="https://M365HowTos.com/tags/PowerShell/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>SharePoint Online Site Design</title>
-      <link>https://M365HowTos.com/posts/SharePointOnlineSiteDesign/</link>
+      <link>https://M365HowTos.com/posts/SharePoint-Online-Site-Design/</link>
       <pubDate>Mon, 20 Mar 2023 23:10:51 -0400</pubDate>
       
-      <guid>https://M365HowTos.com/posts/SharePointOnlineSiteDesign/</guid>
+      <guid>https://M365HowTos.com/posts/SharePoint-Online-Site-Design/</guid>
       <description>Site design refers to the process of customizing and branding the appearance and functionality of SharePoint Online sites to meet specific business needs. This involves creating a design template that can be applied to new or existing sites, which can include custom themes, layouts, and functionality.</description>
     </item>
     
     <item>
       <title>SharePoint Online Site Script</title>
-      <link>https://M365HowTos.com/posts/SharePointOnlineSiteScripts/</link>
+      <link>https://M365HowTos.com/posts/SharePoint-Online-Site-Scripts/</link>
       <pubDate>Sun, 19 Mar 2023 23:06:49 -0400</pubDate>
       
-      <guid>https://M365HowTos.com/posts/SharePointOnlineSiteScripts/</guid>
+      <guid>https://M365HowTos.com/posts/SharePoint-Online-Site-Scripts/</guid>
       <description>SharePoint Site Script is a JSON file used to define custom configurations within a SharePoint Online site. It can include a series of actions, such as creating columns, creating lists, setting site themes, etc., which can be automatically applied to a SharePoint site to ensure it adheres to specific standards and requirements. Site Scripts are reusable scripts that can be shared and reused across multiple SharePoint sites.</description>
     </item>
     
